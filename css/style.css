@@ -1827,7 +1827,7 @@ section.parallax-section.parallax-sec-half-right .overlay {
 section.parallax-section.parallax-sec-half-left .bg,
 section.parallax-section.parallax-sec-half-left .overlay {
 	left: 0;
-	width: 60%;
+	width: 50%;
 }
 .sec-half .pattern-bg {
 	height: 40%;
@@ -6811,4 +6811,22 @@ p.brand-text {
     font-weight: bold;
     line-height: 26px;
     color: #fff !important;
+}
+h2.new-h2 span {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: rgb(250, 201, 33);
+    position: relative;
+    padding-bottom: 30px;
+}
+@media (min-width: 1920px) and (max-width: 2560px)  {
+    .container {
+		max-width: 1600px;
+		width: 92%;
+		margin: 0 auto;
+		position: relative;
+		z-index: 5;
+	}
 }
