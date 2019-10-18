@@ -6771,8 +6771,9 @@ section.parallax-section .section-title:before {
 
 .Recipe-box ul li {
     margin-bottom: 20px;
-	font-size: 16px;
-	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    text-indent: 1px;
 }
 
 .new-float{text-align: left;}
@@ -6801,7 +6802,13 @@ section.parallax-section .section-title:before {
     padding: 30px;
 }
 
-.brand-text::first-letter {
-	font-size: 200%;
-	color: #8A2BE2;
-  }
+p.brand-text {
+    float: left !important;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 26px;
+    color: #fff !important;
+}
