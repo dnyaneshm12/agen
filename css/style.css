@@ -6800,3 +6800,8 @@ section.parallax-section .section-title:before {
     margin: 20px;
     padding: 30px;
 }
+
+.brand-text::first-letter {
+	font-size: 200%;
+	color: #8A2BE2;
+  }
