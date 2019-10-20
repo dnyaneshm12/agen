@@ -6421,7 +6421,7 @@ section.parallax-section .section-title:before {
 		margin-bottom: 50px;
 	}
 	.mob-bg {
-		display:block;
+		display:none;
 	}
 	.order-wrap li {
 		margin-top:50px;
