@@ -795,7 +795,7 @@ function initparallax() {
         b.reload();
         b.init();
     }
-    if (trueMobile) $(".bgvid , .background-vimeo , .background-youtube-wrapper ").remove();
+   // if (trueMobile) $(".bgvid , .background-vimeo , .background-youtube-wrapper ").remove();
 }
     //   instagram ------------------	
     var actoket = $('#insta-content').data("instatoken");
