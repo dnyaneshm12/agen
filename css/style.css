@@ -6058,7 +6058,7 @@ section.parallax-section .section-title:before {
 	padding-top: 10px;
 	float: left;
 	width: 100%;
-	margin-top: 30px;
+	margin-top: 0px;
 }
 #comments.single-post-comm {
 	margin-top: 0;
